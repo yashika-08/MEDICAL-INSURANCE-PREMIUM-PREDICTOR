@@ -9,7 +9,7 @@ st.header('Medical Insurance Premium Predictor')
 
 
 
-gender = st.ectbselox('Choose Gender',['Female','Male'])
+gender = st.selectbox('Choose Gender',['Female','Male'])
 smoker = st.selectbox('Do you Smoke?',['Yes','No'])
 region = st.selectbox('Which Region you Belong to?',['SouthEast','SouthWest','NorthEast','NorthWest'])
 age = st.slider('Enter Age', 5, 80)
